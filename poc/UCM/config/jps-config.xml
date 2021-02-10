@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone='yes'?>
+<jpsConfig xmlns="http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://xmlns.oracle.com/oracleas/schema/11/jps-config-11_1.xsd 
+	   jps-config-11_1.xsd" 
+	   schema-major-version="11"
+	   schema-minor-version="1">
+    <serviceProviders>
+      <serviceProvider name="audit.provider" type="AUDIT" class="oracle.security.jps.internal.audit.AuditProvider"/>
+    </serviceProviders>
+    <serviceInstances>
+      <serviceInstance name="audit" provider="audit.provider" location="./audit-store.xml">
+        <property name="audit.filterPreset" value="None"/> <!-- None (default), Low, Medium, All or Custom -->
+        <!-- <property name="audit.customEvents" value="JPS:CheckAuthorization"/> -->
+	<property name="audit.maxDirSize" value ="0"/>
+        <property name="audit.maxFileSize" value ="1048576"/>
+	<property name="auditstore.type" value="file"/>
+	<property name="audit.loader.repositoryType" value="File" />
+	<property name="audit.timezone" value="utc"/>
+	<property name="audit.logDirectory" value="/C:/temp"/>
+      </serviceInstance>
+    </serviceInstances>
+    <jpsContexts default="default">
+        <jpsContext name="default">
+            <serviceInstanceRef ref="audit"/>              
+        </jpsContext>
+    </jpsContexts>
+</jpsConfig>

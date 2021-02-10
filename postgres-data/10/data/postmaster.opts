@@ -1,0 +1,1 @@
+/usr/lib/postgresql/10/bin/postgres "-D" "/var/lib/postgresql/10/data" "-p" "50432" "-b" "-c" "listen_addresses=" "-c" "unix_socket_permissions=0700" "-c" "unix_socket_directories=/var/lib/postgresql"

@@ -1,0 +1,7 @@
+celery==4.2.1
+Flask==1.0.2
+Flask-RESTful==0.3.6
+marshmallow==2.18.1
+requests==2.21.0
+webargs==3.0.0
+git+ssh://git@git.myfusionplatform.com/fusion-backend/fusion_models.git@file-upload#egg=fusion_models

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01b5b919-3e35-43c7-930b-81ea832ac462" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/fpi/file-processing-worker/worker/connection.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpi/file-processing-worker/worker/connection.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>Infof</find>
+      <find>fatal</find>
+      <find>return</find>
+      <find>log</find>
+      <find>Errorf</find>
+      <find>Set</find>
+      <find>SetOutput</find>
+      <find>%q</find>
+      <find>io</find>
+      <find>log.E</find>
+      <find>log.Eroor</find>
+      <find>log.Err</find>
+      <find>fmt.Err</find>
+      <find>errorf</find>
+      <find>file ID</find>
+      <find>NewSess</find>
+      <find>seek</find>
+      <find>g</find>
+      <find>session</find>
+      <find>processFile</find>
+      <find>amqpURI</find>
+      <find>UpdateBatchStatus</find>
+      <find>UpdateBatchProcesses</find>
+      <find>error</find>
+      <find>Error</find>
+      <find>In Progress</find>
+      <find>recordCount</find>
+      <find>InsertFileRecordInfo</find>
+      <find>process</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>attr</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/snap/go/current" />
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/fpi/file-processing-worker" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
+    <exec-path>/usr/local/bin/dep</exec-path>
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UD0W66Q2B4glC5xAkKGUSZdR1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="go.vgo.advertise" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fbdi-csv-worker-go" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/src/fpi/file-processing-worker/datastore" />
+      <recent name="$PROJECT_DIR$/src/bharath/file_processing_worker/model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/bharath/file_processing_worker/config" />
+      <recent name="$PROJECT_DIR$/src/bharath/file_processing_worker" />
+      <recent name="$PROJECT_DIR$/src/bharath/file-processing-worker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/src/github.com/derekparker/delve" />
+      <path value="$PROJECT_DIR$/src/bharath/file_processing_worker" />
+      <path value="$PROJECT_DIR$/src/fpi/file_processing_worker" />
+    </ignored-roots>
+  </component>
+</project>
